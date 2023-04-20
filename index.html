@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <title>Diep'Todos</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <h1>todos</h1>
+  <div class="container">
+    <div class="contents">
+      <div class="input">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+        </svg>
+        <input id="text" type="text" placeholder="What needs to be done?">
+      </div>
+      <div id="list">
+
+      </div>
+      <div class="actions">
+        <p>
+          <span id="length"></span>
+          items left
+        </p>
+        <div>
+          <button>All</button>
+          <button>Active</button>
+          <button>Completed</button>
+        </div>
+        <button id="clear">Clear completed</button>
+      </div>
+    </div>
+  </div>
+  <script src="/main.js"></script>
+</body>
+
+</html>
